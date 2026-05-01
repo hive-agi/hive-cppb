@@ -1,0 +1,5 @@
+{:project-id "hive-cppb"
+ :parent "hive"
+ :description "CPPB pattern macros (Collect → Promote → Pipeline → Boundary) for stratified data-enrichment workflows with railway-oriented Result threading"
+ :language :clojure
+ :tags ["macros" "patterns" "result" "pipeline" "data-enrichment"]}

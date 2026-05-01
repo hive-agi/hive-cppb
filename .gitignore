@@ -1,8 +1,10 @@
 .cpcache/
+.lsp/
 .clj-kondo/.cache/
-.lsp/.cache/
+.clj-kondo/
 target/
 .nrepl-port
+local.deps.edn
 *.class
 pom.xml
 pom.xml.asc
