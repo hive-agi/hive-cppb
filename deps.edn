@@ -4,7 +4,7 @@
         ;; hive-dsl — Result monad (r/ok, r/err, r/bind, r/let-ok, r/try-effect).
         ;; CPPB threads Results through promoters via r/bind; Result is the only
         ;; non-Clojure-core dep of the macro layer.
-        io.github.hive-agi/hive-dsl {:git/tag "v0.4.1" :git/sha "07ab02a"}}
+        io.github.hive-agi/hive-dsl {:git/tag "v0.5.1" :git/sha "335869e"}}
 
  :aliases
  {:test
