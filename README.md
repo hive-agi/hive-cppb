@@ -27,7 +27,12 @@ Invariants (enforced by convention, not the compiler):
 
 ```clojure
 ;; deps.edn
-io.github.hive-agi/hive-cppb {:git/tag "v0.1.0" :git/sha "<sha>"}
+io.github.hive-agi/hive-cppb {:mvn/version "0.1.0"}
+```
+
+```clojure
+;; Leiningen / project.clj
+[io.github.hive-agi/hive-cppb "0.1.0"]
 ```
 
 ## Example
