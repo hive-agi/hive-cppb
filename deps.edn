@@ -4,7 +4,7 @@
         ;; hive-dsl — Result monad (r/ok, r/err, r/bind, r/let-ok, r/try-effect).
         ;; CPPB threads Results through promoters via r/bind; Result is the only
         ;; non-Clojure-core dep of the macro layer.
-        io.github.hive-agi/hive-dsl {:mvn/version "0.5.4"}
+        io.github.hive-agi/hive-dsl {:mvn/version "0.5.5"}
 
         ;; test.check — required by hive-cppb.test, which lives on :paths ["src"]
         ;; and therefore ships in the jar as public API (the property-based
