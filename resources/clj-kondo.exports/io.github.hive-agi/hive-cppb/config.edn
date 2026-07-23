@@ -1,0 +1,7 @@
+;; clj-kondo config exported by hive-cppb.
+{:lint-as {hive-cppb.core/defcollector clojure.core/defn
+           hive-cppb.core/defpromoter  clojure.core/defn
+           hive-cppb.core/defpipeline  clojure.core/defn}
+ :hooks
+ {:analyze-call
+  {hive-cppb.core/defboundary hive-cppb.hooks.macros/defboundary}}}
