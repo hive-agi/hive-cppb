@@ -4,7 +4,7 @@
         ;; hive-dsl — Result monad (r/ok, r/err, r/bind, r/let-ok, r/try-effect).
         ;; CPPB threads Results through promoters via r/bind; Result is the only
         ;; non-Clojure-core dep of the macro layer.
-        io.github.hive-agi/hive-dsl {:mvn/version "0.5.14"}
+        io.github.hive-agi/hive-dsl {:mvn/version "0.5.15"}
 
         ;; test.check — required by hive-cppb.test, which lives on :paths ["src"]
         ;; and therefore ships in the jar as public API (the property-based
@@ -22,5 +22,5 @@
    :main-opts ["-m" "cognitect.test-runner"]}
 
   :build
-  {:deps {io.github.hive-agi/hive-build {:mvn/version "0.1.8"}}
+  {:deps {io.github.hive-agi/hive-build {:mvn/version "0.1.9"}}
    :ns-default hive-build.api}}}
