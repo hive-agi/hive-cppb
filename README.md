@@ -1,5 +1,14 @@
 # hive-cppb
 
+<!-- hive-badges -->
+
+[![Clojars Project](https://img.shields.io/clojars/v/io.github.hive-agi/hive-cppb.svg)](https://clojars.org/io.github.hive-agi/hive-cppb)
+[![cljdoc](https://cljdoc.org/badge/io.github.hive-agi/hive-cppb)](https://cljdoc.org/d/io.github.hive-agi/hive-cppb/CURRENT)
+[![release](https://github.com/hive-agi/hive-cppb/actions/workflows/release.yml/badge.svg)](https://github.com/hive-agi/hive-cppb/actions/workflows/release.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+<!-- /hive-badges -->
+
 **Collect → Promote → Pipeline → Boundary**: a tiny Clojure macro layer
 that codifies a stratified architecture for data-enrichment workflows.
 Pure data flows down; effects live only at the boundary.
@@ -27,12 +36,12 @@ Invariants (enforced by convention, not the compiler):
 
 ```clojure
 ;; deps.edn
-io.github.hive-agi/hive-cppb {:mvn/version "0.1.0"}
+io.github.hive-agi/hive-cppb {:mvn/version "0.1.1"}
 ```
 
 ```clojure
 ;; Leiningen / project.clj
-[io.github.hive-agi/hive-cppb "0.1.0"]
+[io.github.hive-agi/hive-cppb "0.1.1"]
 ```
 
 ## Example
